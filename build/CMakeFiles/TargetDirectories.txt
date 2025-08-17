@@ -1,0 +1,11 @@
+/home/song/program/KuiperLLama/build/CMakeFiles/llama.dir
+/home/song/program/KuiperLLama/build/CMakeFiles/edit_cache.dir
+/home/song/program/KuiperLLama/build/CMakeFiles/rebuild_cache.dir
+/home/song/program/KuiperLLama/build/test/CMakeFiles/test_llm.dir
+/home/song/program/KuiperLLama/build/test/CMakeFiles/edit_cache.dir
+/home/song/program/KuiperLLama/build/test/CMakeFiles/rebuild_cache.dir
+/home/song/program/KuiperLLama/build/demo/CMakeFiles/llama_infer.dir
+/home/song/program/KuiperLLama/build/demo/CMakeFiles/qwen_infer.dir
+/home/song/program/KuiperLLama/build/demo/CMakeFiles/qwen_chat.dir
+/home/song/program/KuiperLLama/build/demo/CMakeFiles/edit_cache.dir
+/home/song/program/KuiperLLama/build/demo/CMakeFiles/rebuild_cache.dir

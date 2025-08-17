@@ -1,0 +1,362 @@
+[
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/tensor/tensor.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/tensor/tensor.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/alloc.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/alloc.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/alloc_cpu.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/alloc_cpu.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/alloc_cu.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/alloc_cu.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/base.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/base.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/buffer.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/buffer.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/unicode-data.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/unicode-data.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/base/unicode.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/base/unicode.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/add.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/add.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/embedding.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/embedding.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/encode.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/encode.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/layer.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/layer.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/matmul.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/matmul.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/mha.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/mha.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/rmsnorm.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/rmsnorm.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/rope.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/rope.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/swiglu.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/swiglu.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/model/llama3.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/model/llama3.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/model/model.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/model/model.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/model/qwen2.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/model/qwen2.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/model/raw_model_data.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/model/raw_model_data.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/add_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/add_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/argmax_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/argmax_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/emb_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/emb_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/matmul_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/matmul_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/rope_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/rope_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS --options-file CMakeFiles/llama.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -Xcompiler=-fPIC -x cu -rdc=true -c /home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cu",
+  "output": "CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -Dllama_EXPORTS -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -fPIC -o CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o -c /home/song/program/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp",
+  "file": "/home/song/program/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp",
+  "output": "CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_main.cpp.o -c /home/song/program/KuiperLLama/test/test_main.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_main.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_main.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT --options-file CMakeFiles/test_llm.dir/includes_CUDA.rsp -std=c++14 --generate-code=arch=compute_87,code=[compute_87,sm_87] -x cu -rdc=true -c /home/song/program/KuiperLLama/test/utils.cu -o CMakeFiles/test_llm.dir/utils.cu.o",
+  "file": "/home/song/program/KuiperLLama/test/utils.cu",
+  "output": "test/CMakeFiles/test_llm.dir/utils.cu.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.o -c /home/song/program/KuiperLLama/test/test_cu/test_cu_wrap.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_cu/test_cu_wrap.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_add.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_add.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_emb.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_emb.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_matmul.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_matmul.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_rmsnorm.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_rmsnorm.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_rope.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_rope.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_scale.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_scale.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_softmax.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_softmax.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_cu_swiglu.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_cu_swiglu.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_load.cpp.o -c /home/song/program/KuiperLLama/test/test_op/test_load.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_op/test_load.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.o -c /home/song/program/KuiperLLama/test/optimized/test_allocator.cpp",
+  "file": "/home/song/program/KuiperLLama/test/optimized/test_allocator.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.o -c /home/song/program/KuiperLLama/test/test_tensor/test_buffer.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_tensor/test_buffer.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.o -c /home/song/program/KuiperLLama/test/test_tensor/test_tensor.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_tensor/test_tensor.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/test",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/test/../kuiper/include -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.o -c /home/song/program/KuiperLLama/test/test_model/test_llama_cpu.cpp",
+  "file": "/home/song/program/KuiperLLama/test/test_model/test_llama_cpu.cpp",
+  "output": "test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/demo",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/llama_infer.dir/main.cpp.o -c /home/song/program/KuiperLLama/demo/main.cpp",
+  "file": "/home/song/program/KuiperLLama/demo/main.cpp",
+  "output": "demo/CMakeFiles/llama_infer.dir/main.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/demo",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/qwen_infer.dir/main_qwen.cpp.o -c /home/song/program/KuiperLLama/demo/main_qwen.cpp",
+  "file": "/home/song/program/KuiperLLama/demo/main_qwen.cpp",
+  "output": "demo/CMakeFiles/qwen_infer.dir/main_qwen.cpp.o"
+},
+{
+  "directory": "/home/song/program/KuiperLLama/build/demo",
+  "command": "/usr/bin/c++ -DGFLAGS_IS_A_DLL=0 -DQWEN2_SUPPORT -I/home/song/program/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/aarch64-linux/include -isystem /home/song/anaconda3/include -std=gnu++17 -o CMakeFiles/qwen_chat.dir/chat_qwen.cpp.o -c /home/song/program/KuiperLLama/demo/chat_qwen.cpp",
+  "file": "/home/song/program/KuiperLLama/demo/chat_qwen.cpp",
+  "output": "demo/CMakeFiles/qwen_chat.dir/chat_qwen.cpp.o"
+}
+]

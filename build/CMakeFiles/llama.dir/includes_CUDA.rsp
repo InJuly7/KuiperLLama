@@ -1,0 +1,1 @@
+-I/home/song/program/KuiperLLama/kuiper/include -I"/usr/local/cuda/targets/aarch64-linux/include" -isystem /home/song/anaconda3/include

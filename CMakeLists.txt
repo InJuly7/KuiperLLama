@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.16)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Set the CUDA compiler path or name
 set(CMAKE_CUDA_COMPILER "/usr/local/cuda/bin/nvcc")
 
 project(llama_infer CXX CUDA)
@@ -18,66 +17,14 @@ if (LLAMA3_SUPPORT)
   message(STATUS "LLAMA3 SUPPORT")
   add_definitions(-DLLAMA3_SUPPORT)
 endif()
+
 option(QWEN2_SUPPORT OFF)
 if (QWEN2_SUPPORT)
   message(STATUS "QWEN2 SUPPORT")
   add_definitions(-DQWEN2_SUPPORT)
 endif()
-# ---- Add dependencies via CPM ----
-# see https://github.com/TheLartians/CPM.cmake for more info
-option(USE_CPM "Use CPM for dependency management" OFF)
 
-if(USE_CPM)
-  # Use CPM to manage dependencies
-  include(cmake/CPM.cmake)
 
-  CPMAddPackage(
-    NAME GTest
-    GITHUB_REPOSITORY google/googletest
-    VERSION 1.15.0
-  )
-
-  CPMAddPackage(
-    NAME glog
-    GITHUB_REPOSITORY google/glog
-    VERSION 0.7.1
-    OPTIONS "BUILD_TESTING Off"
-  )
-
-  CPMAddPackage(
-    NAME Armadillo
-    GITLAB_REPOSITORY conradsnicta/armadillo-code
-    GIT_TAG 14.0.1
-  )
-
-  CPMAddPackage(
-    NAME sentencepiece
-    GITHUB_REPOSITORY google/sentencepiece
-    VERSION 0.2.0
-  )
-  find_package(sentencepiece REQUIRED)
-
-  if (LLAMA3_SUPPORT OR QWEN2_SUPPORT)
-    CPMAddPackage(
-        NAME absl
-        GITHUB_REPOSITORY abseil/abseil-cpp
-        GIT_TAG 20240722.0
-        OPTIONS "BUILD_TESTING Off" "ABSL_PROPAGATE_CXX_STD ON" "ABSL_ENABLE_INSTALL ON"
-    )
-    CPMAddPackage(
-        NAME re2
-        GITHUB_REPOSITORY google/re2
-        GIT_TAG 2024-07-02
-    )
-    CPMAddPackage(
-        NAME nlohmann_json
-        GITHUB_REPOSITORY nlohmann/json
-        VERSION 3.11.3
-    )
-  endif()
-endif()
-
-# ---------------------------------
 find_package(GTest REQUIRED)
 find_package(glog REQUIRED)
 find_package(Armadillo REQUIRED)
@@ -101,11 +48,6 @@ target_include_directories(llama PUBLIC ${glog_INCLUDE_DIR})
 target_include_directories(llama PUBLIC ${PROJECT_SOURCE_DIR}/kuiper/include)
 target_include_directories(llama PUBLIC ${Armadillo_INCLUDE_DIR})
 target_include_directories(llama PUBLIC ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES})
-
-if(USE_CPM)
-  # Add sentencepiece include directory
-  target_include_directories(llama PUBLIC ${sentencepiece_SOURCE_DIR}/src)
-endif()
 
 set_target_properties(llama PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 add_subdirectory(test)

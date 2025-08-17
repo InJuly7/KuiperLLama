@@ -25,7 +25,7 @@ if (LLAMA3_SUPPORT OR QWEN2_SUPPORT)
     find_package(absl REQUIRED)
     find_package(re2 REQUIRED)
     find_package(nlohmann_json REQUIRED)
-    target_link_libraries(llama absl::base re2::re2 nlohmann_json::nlohmann_json)
+    target_link_libraries(llama absl::base absl::strings re2::re2 nlohmann_json::nlohmann_json)
 endif ()
 target_link_libraries(test_llm llama)
 
