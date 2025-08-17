@@ -8,10 +8,10 @@
 #include "../utils.cuh"
 #include "base/buffer.h"
 TEST(test_buffer, use_external1) {
-  using namespace base;
-  auto alloc = base::CUDADeviceAllocatorFactory::get_instance();
-  float* ptr = new float[32];
-  Buffer buffer(32, nullptr, ptr, true);
-  CHECK_EQ(buffer.is_external(), true);
-  cudaFree(buffer.ptr());
+    using namespace base;
+    auto alloc = base::CUDADeviceAllocatorFactory::get_instance();
+    float *ptr = new float[32];
+    Buffer buffer(32, nullptr, ptr, true);
+    CHECK_EQ(buffer.is_external(), true);
+    cudaFree(buffer.ptr());
 }

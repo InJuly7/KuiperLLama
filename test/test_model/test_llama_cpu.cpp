@@ -9,11 +9,11 @@
 //   std::shared_ptr<base::CPUDeviceAllocator> alloc =
 //       std::make_shared<base::CPUDeviceAllocator>();
 //
-//   const char* checkpoint_path = "/home/fss/llama2/llama2_7b.bin";  // e.g. out/model.bin
-//   const char* tokenizer_path = "/home/fss/llama2/tokenizer.model";
-//   model::LLama2Model model(tokenizer_path, checkpoint_path);
-//   auto status = model.init(base::DeviceType::kDeviceCPU);
-//   if (status) {
+//   const char* checkpoint_path = "/home/fss/llama2/llama2_7b.bin";  // e.g.
+//   out/model.bin const char* tokenizer_path =
+//   "/home/fss/llama2/tokenizer.model"; model::LLama2Model
+//   model(tokenizer_path, checkpoint_path); auto status =
+//   model.init(base::DeviceType::kDeviceCPU); if (status) {
 //     std::string sentence = "Hi";  // prompts
 //     const auto& tokens = model.encode(sentence);
 //     const auto s = model.forward(tokens, 1);
